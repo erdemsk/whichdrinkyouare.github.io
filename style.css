@@ -1,0 +1,27 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+audio {
+    max-width: 100%;
+    display: block; /* Ensure it behaves as a block element */
+    margin: 0 auto; /* Center the audio player */
+}
+
+/* Center content in the output section */
+#output {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+/* Hide instruction text when output is displayed */
+#output:target ~ #instructionText {
+    display: none;
+}
