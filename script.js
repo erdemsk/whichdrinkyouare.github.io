@@ -31,7 +31,7 @@ form.addEventListener('submit', function(event) {
         backgroundMusic.load();
         backgroundMusic.play();
         
-    } else if (name === 'yigit' || name === 'yiğit' || name === 'ahmet' || name === 'can' || name === 'ahmet yiğit can') {
+    } else if (name === 'yigit' || name === 'yiğit' || name === 'yiğitcan' || name === 'yigitcan' || name === 'ahmet' || name === 'can' || name === 'ahmet yiğit can') {
         // Change background color to gray for lavuk
         document.body.style.backgroundColor = "gray";
 
