@@ -20,11 +20,13 @@ form.addEventListener('submit', function(event) {
         document.body.style.backgroundColor = "pink";
 
         // Content for Sevde
-        outputTitle.textContent = `${name.charAt(0).toUpperCase() + name.slice(1)}, you're hot Wine!`;
-        outputImage.src = 'img/wine.png'; 
+        outputTitle.textContent = `${name.charAt(0).toUpperCase() + name.slice(1)}, sen ayransın!`;
+        // outputImage.src = 'img/wine.png'; 
+        outputImage.src = 'https://www.nazar.com.tr/wp-content/uploads/2020/12/ayran.jpg';
         outputImage.style.display = 'block';
-        outputText.textContent = "Glühwein! Noel zamanlarının vazgeçilmezi, soğukluğuyla bilinen Almanların bile içini kıpır kıpır eden eşsiz bir lezzet! Yıllar geçtikçe daha da kıymetli olan bu mükemmel içeceği beğenmeyenler toplum tarafından zevksizlikle suçlanır, dışlanır, akıl sağlıkları sorgulanır. Ama ne şarabın kendisi ne de başka kimse, sıcak şaraptan yana bir şüphe duymaz! Tıpkı bir şarabın yolculuğu gibi, vakit ilerledikçe senin de ömrün daha da güzelleşecek ve hiçbir günün bir öncekini aratmayacak! Çok değerlisin ve bunun farkında ol!";
-        
+        // outputText.textContent = "Glühwein! Noel zamanlarının vazgeçilmezi, soğukluğuyla bilinen Almanların bile içini kıpır kıpır eden eşsiz bir lezzet! Yıllar geçtikçe daha da kıymetli olan bu mükemmel içeceği beğenmeyenler toplum tarafından zevksizlikle suçlanır, dışlanır, akıl sağlıkları sorgulanır. Ama ne şarabın kendisi ne de başka kimse, sıcak şaraptan yana bir şüphe duymaz! Tıpkı bir şarabın yolculuğu gibi, vakit ilerledikçe senin de ömrün daha da güzelleşecek ve hiçbir günün bir öncekini aratmayacak! Çok değerlisin ve bunun farkında ol!";
+        outputText.textContent = "Ayran... Bu toprakların milli içkisi. En güzel sofraların eşlikçisi, 7'den 70'e herkesin gönlünü çelen biricik tercih. Sütten yoğurda dönüşen ardından son haline ulaşan hayat yolculuğuyla bu içecek emeğin, evrimin ve daima daha iyiye gidişin Türk mutfağındaki sembolü. Muhafazakar bir kızın olabileceği en iyi içecek!";
+            
         // Play Sevde's specific music
         musicSource.src = 'audio/sevde-music.mp3'; 
         backgroundMusic.style.display = 'block';
