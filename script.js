@@ -41,7 +41,7 @@ form.addEventListener('submit', function(event) {
         outputTitle.textContent = `${name.charAt(0).toUpperCase() + name.slice(1)}, sen deve sidiğisin!`;
         outputImage.src = 'img/deve.png'; 
         outputImage.style.display = 'block';
-        outputText.textContent = "Söylenecek fazla söz yok, çünkü hepsi kelime israfı. Sen bir loser'sın. Şansını kullanamayan ve sonradan çok üzülecek (olması gerektiği gibi) bir loser. Gelecek, senin için parlak değil. Kendini toplumdan tecrit et ve aynasız bir mahzende kimseye zarar vermeden ömrünü tamamla. Ne demişler, deve şaraptan ne anlar?";
+        outputText.textContent = "Söylenecek fazla söz yok, çünkü hepsi kelime israfı. Sen bir loser'sın. Şansını kullanamayan ve sonradan çok üzülecek (olması gerektiği gibi) bir loser. Gelecek, senin için parlak değil. Kendini toplumdan tecrit et ve aynasız bir mahzende kimseye zarar vermeden ömrünü tamamla. Ne demişler, eşek hoşaftan ne anlar?";
         
         // Play specific music for lavuk
         musicSource.src = 'audio/lavuk-music.mp3'; 
